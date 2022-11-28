@@ -1,31 +1,45 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "2ce4deac76e5ad833714",
+  "hash": "6b23c198a95170e8e1b8",
   "publicPath": "",
-  "outputPath": "E:\\React Js Projects\\frontity main\\testpng\\test\\build\\static",
+  "outputPath": "E:\\testing\\test15\\build\\static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
     "archive~post": "archive~post.module.js",
     "post": "post.module.js",
-    "test": "test.module.js"
+    "test": [
+      "test.module.js",
+      "test.52455f39d3047a583999.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "archive.module.js",
-      "size": 75505,
-      "chunks": [
-        "archive"
-      ],
-      "chunkNames": [
-        "archive"
-      ],
-      "info": {},
+      "name": "52455f39d3047a583999.hot-update.json",
+      "size": 46,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
+      "name": "archive.module.js",
+      "size": 74805,
+      "chunks": [
+        "archive"
+      ],
+      "chunkNames": [
+        "archive"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
       "name": "archive~post.module.js",
-      "size": 159705,
+      "size": 158081,
       "chunks": [
         "archive~post"
       ],
@@ -33,7 +47,7 @@
         "archive~post"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Bold-LATIN.woff2",
@@ -43,7 +57,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-Bold-LATIN.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Bold-US-ASCII.woff2",
@@ -53,7 +67,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-Bold-US-ASCII.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Bold.woff2",
@@ -63,7 +77,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-Bold.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Medium-LATIN.woff2",
@@ -73,7 +87,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-Medium-LATIN.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Medium-US-ASCII.woff2",
@@ -83,7 +97,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-Medium-US-ASCII.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Medium.woff2",
@@ -93,7 +107,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-Medium.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-SemiBold-LATIN.woff2",
@@ -103,7 +117,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-SemiBold-LATIN.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-SemiBold-US-ASCII.woff2",
@@ -113,7 +127,7 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-SemiBold-US-ASCII.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-SemiBold.woff2",
@@ -123,11 +137,11 @@
       "info": {
         "sourceFilename": "packages/twentytwenty-theme/src/fonts/inter/Inter-SemiBold.woff2"
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "post.module.js",
-      "size": 38012,
+      "size": 37748,
       "chunks": [
         "post"
       ],
@@ -135,11 +149,26 @@
         "post"
       ],
       "info": {},
+      "emitted": true
+    },
+    {
+      "name": "test.52455f39d3047a583999.hot-update.js",
+      "size": 27335,
+      "chunks": [
+        "test"
+      ],
+      "chunkNames": [
+        "test"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
       "name": "test.module.js",
-      "size": 7714606,
+      "size": 7707556,
       "chunks": [
         "test"
       ],
@@ -157,7 +186,8 @@
         "test"
       ],
       "assets": [
-        "test.module.js"
+        "test.module.js",
+        "test.52455f39d3047a583999.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -210,7 +240,8 @@
     {
       "id": "test",
       "files": [
-        "test.module.js"
+        "test.module.js",
+        "test.52455f39d3047a583999.hot-update.js"
       ]
     }
   ]

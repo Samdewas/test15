@@ -3,8 +3,7 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://www.edivaldobrito.com.br/",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "Edivaldo Blog",
     }
   },
   "packages": [
@@ -17,22 +16,7 @@ const settings = {
               "Home",
               "/"
             ],
-            [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
+            
           ],
           "featured": {
             "showOnList": false,
